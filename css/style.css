@@ -7,3 +7,49 @@
 }
 
 /* #endregion */
+
+/* #region DEBUG */
+
+.debug header .container.first-menu {
+  padding: 23px;
+}
+
+.debug header .container.first-menu > * {
+  background-color: var(--azure-color);
+  padding: 7px;
+}
+
+/* #endregion */
+
+/* #region COMMON */
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+:root {
+  --blue-color: #0084fd;
+  --azure-color: #b5ddff;
+}
+
+/* #endregion */
+
+/* #region HEADER */
+
+header {
+  background-color: var(--blue-color);
+}
+
+header .container.first-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+/* #endregion */
