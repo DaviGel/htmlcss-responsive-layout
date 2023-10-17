@@ -191,9 +191,7 @@ footer {
 
 @media screen and (max-width: 992px) {
   main .equal-grid .container .grid.equal.flex .grid-items {
-    .grid-items {
-      width: calc(100% / 2 - 25px);
-    }
+    width: calc(100% / 2 - 25px);
   }
 }
 
