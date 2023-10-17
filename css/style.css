@@ -100,8 +100,16 @@ a {
   background-color: var(--blue-color);
 }
 
+.bg-violet {
+  background-color: var(--violet-color);
+}
+
 .white {
   color: var(--white-color);
+}
+
+.violet {
+  color: var(--violet-color);
 }
 
 .br-50 {
@@ -347,14 +355,12 @@ main .testimonials .testimonials-items .text-content strong {
   color: var(--white-color);
 }
 
-/* FULL SCREEN SECTION */
+/* BENEFITS */
 
-main .planning,
-main .call-to-action {
+.benefits {
   background-color: var(--violet-color);
+  padding-bottom: 62px;
 }
-
-/* SECONDA GRID */
 
 main .container .grid.equal .grid-items:first-child {
   width: calc(100% / 3 - 25px);
@@ -362,11 +368,39 @@ main .container .grid.equal .grid-items:first-child {
 
 main .equal-grid h2 {
   text-align: center;
+  color: var(--white-color);
+  font-size: 48px;
+  margin-bottom: 67px;
+  padding-top: 87px;
 }
 
-/* main .equal-grid .container .grid.equal.flex {
-  flex-wrap: wrap;
-} */
+main .equal-grid .number {
+  font-size: 72px;
+}
+
+main .equal-grid .title {
+  font-size: 24px;
+}
+
+main .container .grid.equal .grid-items {
+  background-color: var(--white-color);
+  text-align: start;
+}
+
+main .container .grid.equal .grid-items:first-child {
+  display: block;
+  text-align: start;
+}
+
+main .container .grid.equal .grid-items p {
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+main .container .grid.equal .grid-items button {
+  padding: 18px 50px;
+  margin-bottom: 32px;
+}
 
 /* #endregion */
 
@@ -379,6 +413,11 @@ main .aboutus .container.flex {
 }
 
 /* CTA */
+
+main .planning,
+main .call-to-action {
+  background-color: var(--violet-color);
+}
 
 main .call-to-action .container .cta.flex {
   justify-content: center;
