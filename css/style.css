@@ -107,7 +107,7 @@ main .container .grid .grid-items {
 }
 
 main .container .grid .grid-items:first-child {
-  width: calc(100% / 1.5 - 25px);
+  width: calc(100% / 1.5 - (25px / 2));
 }
 
 main .container .grid .grid-items .grid-items-left,
