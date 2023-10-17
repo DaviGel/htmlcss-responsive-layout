@@ -558,6 +558,10 @@ footer a {
     width: 50%;
   }
 
+  main .planning .container {
+    padding-bottom: 63px;
+  }
+
   main .planning .container .planning-section {
     display: block;
   }
