@@ -75,6 +75,30 @@
   padding: 0 1.875rem;
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 5px 13px;
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+/* #endregion */
+
+/* #region BODY */
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
 /* #endregion */
 
 /* #region HEADER */
@@ -87,6 +111,19 @@ header .container.first-menu {
   justify-content: space-between;
   align-items: center;
   height: 76px;
+}
+
+nav a {
+  color: white;
+}
+
+nav .menu-ext a {
+  margin-right: 33px;
+}
+
+nav .hamburger {
+  display: none;
+  font-size: 1.5rem;
 }
 
 /* #endregion */
@@ -197,6 +234,14 @@ footer {
 @media screen and (max-width: 991px) {
   .container {
     max-width: 960px;
+  }
+
+  nav .menu-ext {
+    display: none;
+  }
+
+  nav .hamburger {
+    display: block;
   }
 
   main .equal-grid .container .grid.equal.flex .grid-items {
