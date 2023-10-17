@@ -189,11 +189,11 @@ main .container .grid .grid-items:not(:first-child) {
 main .container .grid .grid-items:not(:first-child) i,
 main .container .grid .grid-items:not(:first-child) h2 {
   color: var(--blue-color);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 main .container .grid .grid-items:not(:first-child) i {
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 main .container .grid .grid-items h2 {
@@ -210,14 +210,14 @@ main .container .grid .grid-items .grid-items-left {
 }
 
 main .grid .grid-items .grid-items-left h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--blue-color);
   margin-bottom: 37px;
 }
 
 main .grid .grid-items p {
   color: #5a6e7f;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: 40px;
 }
@@ -265,7 +265,7 @@ main .planning .container .planning-section .planning-items {
 
 main .planning .container .planning-section .planning-items.left h2 {
   margin-bottom: 60px;
-  font-size: 34px;
+  font-size: 2.125rem;
 }
 
 main .planning .container .planning-section .planning-items.left img {
@@ -287,6 +287,10 @@ main .planning .container .planning-section .planning-items.right {
   margin-top: 135px;
 }
 
+main .planning .container .planning-section .planning-items.right h2 {
+  margin-top: 30px;
+}
+
 main .planning .container .planning-section .planning-items.right i {
   background-color: var(--violet-color);
   padding: 20px;
@@ -296,6 +300,7 @@ main .planning .container .planning-section .planning-items.right i {
 
 main .planning .container .planning-section .planning-items.right em {
   margin-top: 27px;
+  font-size: 1.125rem;
 }
 
 /* #endregion */
@@ -312,12 +317,13 @@ main .testimonials h6 {
 
 main .testimonials h2 {
   color: var(--violet-color);
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 47px;
 }
 
 main .testimonials .container > p {
   margin-bottom: 55px;
+  font-size: 1.25rem;
 }
 
 main .testimonials .testimonials-items {
@@ -349,6 +355,7 @@ main .testimonials .testimonials-items .img-content img {
 main .testimonials .testimonials-items .text-content p {
   color: var(--white-color);
   margin: 0 20px 36px 0;
+  font-size: 1.25rem;
 }
 
 main .testimonials .testimonials-items .text-content strong {
@@ -369,17 +376,13 @@ main .container .grid.equal .grid-items:first-child {
 main .equal-grid h2 {
   text-align: center;
   color: var(--white-color);
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 67px;
   padding-top: 87px;
 }
 
 main .equal-grid .number {
-  font-size: 72px;
-}
-
-main .equal-grid .title {
-  font-size: 24px;
+  font-size: 4.5rem;
 }
 
 main .container .grid.equal .grid-items {
@@ -395,6 +398,7 @@ main .container .grid.equal .grid-items:first-child {
 main .container .grid.equal .grid-items p {
   font-weight: 100;
   margin-top: 30px;
+  font-size: 1rem;
 }
 
 main .container .grid.equal .grid-items button {
@@ -413,13 +417,13 @@ main .aboutus .container.flex {
 }
 
 main .aboutus .content h2 {
-  font-size: 72px;
+  font-size: 4.5rem;
   margin-top: 102px;
   margin-bottom: 56px;
 }
 
 main .aboutus .content p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 44px;
 }
 
@@ -439,7 +443,7 @@ main .about-img img {
 }
 
 main .member p {
-  font-size: 30px;
+  font-size: 1.875rem;
   margin-top: 30px;
 }
 
@@ -455,7 +459,7 @@ main .virgolette {
   position: absolute;
   top: -10px;
   right: -10px;
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 /* CTA */
@@ -472,7 +476,7 @@ main .call-to-action .container .cta.flex {
 
 main .call-to-action {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 main .call-to-action button {
@@ -489,12 +493,12 @@ main .call-to-action .cta-items div:last-child {
 }
 
 main .fs-48 {
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--white-color);
 }
 
 main .fs-96 {
-  font-size: 96px;
+  font-size: 6rem;
   color: #fdc15f;
   margin: 57px 0;
 }
@@ -571,7 +575,7 @@ footer a {
   }
 
   main .planning .container .planning-section .planning-items.left h2 {
-    font-size: 84px;
+    font-size: 5.25rem;
   }
 
   main .planning .container .planning-section .planning-items.right {
