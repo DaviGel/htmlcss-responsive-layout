@@ -408,8 +408,54 @@ main .container .grid.equal .grid-items button {
 
 main .aboutus .container.flex {
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 100px;
+}
+
+main .aboutus .content h2 {
+  font-size: 72px;
+  margin-top: 102px;
+  margin-bottom: 56px;
+}
+
+main .aboutus .content p {
+  font-size: 20px;
+  line-height: 44px;
+}
+
+main .aboutus .content p:last-child {
+  margin-bottom: 155px;
+}
+
+main .about-img {
+  width: 247px;
+  height: 247px;
+  margin-top: 103px;
+  position: relative;
+}
+
+main .about-img img {
+  border-radius: 50%;
+}
+
+main .member p {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+main .member i {
+  margin-right: 13px;
+}
+
+main .member button {
+  margin-top: 30px;
+}
+
+main .virgolette {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 72px;
 }
 
 /* CTA */
@@ -424,12 +470,59 @@ main .call-to-action .container .cta.flex {
   align-items: center;
 }
 
+main .call-to-action {
+  text-align: center;
+  font-size: 18px;
+}
+
+main .call-to-action button {
+  padding: 33px 80px;
+  margin: 37px 0 37px 0;
+}
+
+main .call-to-action .cta-items div:first-child {
+  margin: 37px 0;
+}
+
+main .call-to-action .cta-items div:last-child {
+  margin-bottom: 65px;
+}
+
+main .fs-48 {
+  font-size: 48px;
+  color: var(--white-color);
+}
+
+main .fs-96 {
+  font-size: 96px;
+  color: #fdc15f;
+  margin: 57px 0;
+}
+
+main .call-to-action a {
+  text-decoration: underline;
+}
+
 /* FOOTER */
 
 footer {
   background-color: var(--gray-color);
   text-align: center;
   color: var(--white-color);
+}
+
+footer p {
+  padding-bottom: 42px;
+}
+
+footer p:first-child {
+  padding: 45px;
+  margin-bottom: 70px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: var(--violet-color);
 }
 
 /* #region MEDIA QUERIES */
@@ -520,6 +613,26 @@ footer {
   main .testimonials .testimonials-items .text-content {
     padding: 0 20px 38px 20px;
     text-align: center;
+  }
+
+  main .aboutus .container {
+    flex-direction: column;
+  }
+
+  main .aboutus .content p:last-child {
+    margin-bottom: 0;
+  }
+
+  main .about-img {
+    margin-top: 0;
+  }
+
+  main .aboutus .container.flex {
+    gap: 56px;
+  }
+
+  main .aboutus .member button {
+    margin-bottom: 80px;
   }
 }
 
