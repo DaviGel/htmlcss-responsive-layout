@@ -72,7 +72,7 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 32px;
+  padding: 0 1.875rem;
 }
 
 /* #endregion */
@@ -103,6 +103,7 @@ main .container .grid {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 main .container .grid .grid-items {
@@ -194,6 +195,10 @@ footer {
 /* #region MEDIA QUERIES */
 
 @media screen and (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+
   main .equal-grid .container .grid.equal.flex .grid-items {
     width: calc(100% / 2 - 25px);
   }
