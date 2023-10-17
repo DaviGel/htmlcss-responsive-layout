@@ -340,7 +340,7 @@ main .testimonials .testimonials-items .img-content img {
 
 main .testimonials .testimonials-items .text-content p {
   color: var(--white-color);
-  margin-bottom: 36px;
+  margin: 0 20px 36px 0;
 }
 
 main .testimonials .testimonials-items .text-content strong {
@@ -468,6 +468,19 @@ footer {
 
   main .planning .container .planning-section .planning-items.left h2 {
     font-size: 4.875rem;
+  }
+
+  main .testimonials .testimonials-items {
+    flex-direction: column;
+  }
+
+  main .testimonials .testimonials-items .img-content {
+    margin: 30px 55px 20px;
+  }
+
+  main .testimonials .testimonials-items .text-content {
+    padding: 0 20px 38px 20px;
+    text-align: center;
   }
 }
 
