@@ -158,6 +158,10 @@ main .equal-grid h2 {
   text-align: center;
 }
 
+/* main .equal-grid .container .grid.equal.flex {
+  flex-wrap: wrap;
+} */
+
 /* #endregion */
 
 /* ABOUT US */
@@ -186,19 +190,25 @@ footer {
 /* #region MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
+  main .equal-grid .container .grid.equal.flex .grid-items {
+    .grid-items {
+      width: calc(100% / 2 - 25px);
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   main .container .grid,
   main .planning .container .planning-section.flex {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   main .container .grid .grid-items,
   main .container .grid .grid-items:first-child,
   main .container .grid .grid-items .grid-items-left,
   main .container .grid .grid-items .grid-items-right,
-  main .container .grid.equal .grid-items:first-child {
+  main .container .grid.equal .grid-items:first-child,
+  main .equal-grid .container .grid.equal.flex .grid-items {
     width: 100%;
   }
 }
