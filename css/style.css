@@ -51,6 +51,18 @@
 
 /* #endregion */
 
+/* #region VARIABLES */
+
+:root {
+  --blue-color: #0084fd;
+  --azure-color: #b5ddff;
+  --violet-color: #9792e4;
+  --gray-color: #333333;
+  --white-color: #ffffff;
+}
+
+/* #endregion */
+
 /* #region COMMON */
 
 .flex {
@@ -61,14 +73,6 @@
   max-width: 1140px;
   margin: 0 auto;
   padding: 32px;
-}
-
-:root {
-  --blue-color: #0084fd;
-  --azure-color: #b5ddff;
-  --violet-color: #9792e4;
-  --gray-color: #333333;
-  --white-color: #ffffff;
 }
 
 /* #endregion */
