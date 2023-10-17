@@ -196,7 +196,7 @@ footer {
 
 @media screen and (max-width: 991px) {
   .container {
-    max-width: 750px;
+    max-width: 960px;
   }
 
   main .equal-grid .container .grid.equal.flex .grid-items {
@@ -205,6 +205,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    max-width: 750px;
+  }
+
   main .container .grid,
   main .planning .container .planning-section.flex {
     flex-wrap: wrap;
