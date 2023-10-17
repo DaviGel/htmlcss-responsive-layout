@@ -211,6 +211,10 @@ footer {
   main .equal-grid .container .grid.equal.flex .grid-items {
     width: 100%;
   }
+
+  .debug main .planning .container .planning-section.flex {
+    height: 1140px;
+  }
 }
 
 /* #endregion */
