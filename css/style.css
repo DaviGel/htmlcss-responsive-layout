@@ -261,7 +261,6 @@ main .container .grid .grid-items img {
 
 main .planning .container .planning-section {
   justify-content: center;
-  align-items: flex-end;
   gap: 65px;
 }
 
@@ -295,7 +294,7 @@ main .planning .container .planning-section .planning-items:nth-child(2) {
 main .planning .container .planning-section .planning-items.right {
   background-color: var(--white-color);
   padding: 35px 40px;
-  margin-top: 135px;
+  align-self: flex-end;
 }
 
 main .planning .container .planning-section .planning-items.right h2 {
