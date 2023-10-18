@@ -366,6 +366,10 @@ main .testimonials .testimonials-items .text-content strong {
   color: var(--white-color);
 }
 
+main .testimonials .testimonials-items .text-content i.fa-quote-left {
+  vertical-align: top;
+}
+
 /* #endregion */
 
 /* #region BENEFITS */
@@ -389,6 +393,7 @@ main .equal-grid h2 {
 
 main .equal-grid .number {
   font-size: 4.5rem;
+  font-weight: 700;
 }
 
 main .container .grid.equal .grid-items {
