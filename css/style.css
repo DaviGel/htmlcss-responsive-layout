@@ -138,17 +138,27 @@ header .container.first-menu {
   height: 76px;
 }
 
-nav a {
-  color: white;
+nav .menu-ext {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav .menu-ext li {
+  list-style: none;
 }
 
 nav .menu-ext a {
-  margin-right: 33px;
+  color: var(--white-color);
 }
 
 nav .hamburger {
   display: none;
   font-size: 1.5rem;
+}
+
+nav .hamburger i {
+  color: var(--white-color);
 }
 
 /* #endregion */
