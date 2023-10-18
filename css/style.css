@@ -153,13 +153,15 @@ nav .hamburger {
 
 /* #endregion */
 
-/* #region MAIN */
+/* #region  */
 
 main {
   margin-top: 50px;
 }
 
-/* GRID */
+/* #endregion */
+
+/* #region MARKETING */
 
 main .container .grid {
   justify-content: space-between;
@@ -246,6 +248,8 @@ main .container .grid .grid-items .grid-items-right img {
   left: 0;
 }
 
+/* #endregion */
+
 /* #region PLANNING */
 
 main .planning .container .planning-section {
@@ -305,7 +309,7 @@ main .planning .container .planning-section .planning-items.right em {
 
 /* #endregion */
 
-/* TESTIMONIALS */
+/* #region TESTIMONIALS */
 
 main .testimonials {
   text-align: center;
@@ -362,7 +366,9 @@ main .testimonials .testimonials-items .text-content strong {
   color: var(--white-color);
 }
 
-/* BENEFITS */
+/* #endregion */
+
+/* #region BENEFITS */
 
 .benefits {
   background-color: var(--violet-color);
@@ -408,7 +414,7 @@ main .container .grid.equal .grid-items button {
 
 /* #endregion */
 
-/* ABOUT US */
+/* #region ABOUT US */
 
 main .aboutus .container.flex {
   justify-content: center;
@@ -462,7 +468,9 @@ main .virgolette {
   font-size: 4.5rem;
 }
 
-/* CTA */
+/* #endregion */
+
+/* #region CTA */
 
 main .planning,
 main .call-to-action {
@@ -507,7 +515,9 @@ main .call-to-action a {
   text-decoration: underline;
 }
 
-/* FOOTER */
+/* #endregion */
+
+/* #region FOOTER */
 
 footer {
   background-color: var(--gray-color);
@@ -528,6 +538,8 @@ footer a {
   text-decoration: underline;
   color: var(--violet-color);
 }
+
+/* #endregion */
 
 /* #region MEDIA QUERIES */
 
