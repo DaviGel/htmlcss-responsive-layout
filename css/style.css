@@ -345,20 +345,14 @@ main .testimonials .testimonials-items {
 }
 
 main .testimonials .testimonials-items .img-content {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
   flex-shrink: 0;
   margin: 32px 63px 57px 18px;
 }
 
 main .testimonials .testimonials-items .img-content img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
